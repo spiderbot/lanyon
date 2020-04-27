@@ -3,7 +3,7 @@ title:               Piyush Joshi
 tagline:             'TheCodingMantra'
 description:         '<i>Some awesome resources for coding and interview preparation.</i>'
 url:                 https://thecodingmantra.com
-baseurl:             ''
+baseurl:             '/tcm'
 paginate:            1
 permalink:           pretty
 
