@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Piyush Joshi</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-04-27T19:32:41+05:30</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Piyush Joshi</name>
+   <email>joshipiyush217@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Composite Design Pattern</title>
+   <link href="http://localhost:4000/20percent/designpatterns/2020/04/27/composite-design-pattern/"/>
+   <updated>2020-04-27T14:40:17+05:30</updated>
+   <id>http://localhost:4000/20percent/designpatterns/2020/04/27/composite-design-pattern</id>
+   <content type="html">&lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;https://www.programcreek.com/wp-content/uploads/2013/02/composite-design-pattern.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;usage&quot;&gt;Usage&lt;/h1&gt;
+&lt;p&gt;When we need to create a structure and the structure combines with multiple objects which need to be treated the same way, then we can use composite design pattern. As it shows it is a composition of multiple objects. All the objects which combine together are called leafs. The object which is made by combining leafs is called composite. The behaviour exerted by leaf objects and composite objects is the same so they can inherit same behaviour. This can be done by inheriting same abstract class of same interface. This abstract class or interface is called the Base Component.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-there-are-3-elements-in-total&quot;&gt;So there are 3 elements in total&lt;/h2&gt;
+&lt;h4 id=&quot;base&quot;&gt;Base&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/spiderbot/cd0e200215554afa6b1da74106fb6441.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;leaf&quot;&gt;Leaf&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/spiderbot/e620d3b61ec64649295ffe21ddbd63b0.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;composite&quot;&gt;Composite&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/spiderbot/3a448daf87be382474dfe57f65de2eac.js&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>

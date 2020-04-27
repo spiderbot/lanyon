@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Composite Design Pattern &middot; Piyush Joshi
+    
+  </title>
+
+  
+  <link rel="canonical" href="http://localhost:4000/20percent/designpatterns/2020/04/27/composite-design-pattern/">
+  
+
+  <link rel="stylesheet" href="http://localhost:4000/public/css/poole.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/syntax.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
+
+  
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p><i>Some awesome resources for coding and interview preparation.</i></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="http://localhost:4000/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="http://localhost:4000/about/">About</a>
+        
+      
+    
+      
+    
+
+    <span class="sidebar-nav-item">Currently v1.1.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2020. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Piyush Joshi</a>
+            <small>TheCodingMantra</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Composite Design Pattern</h1>
+  <span class="post-date">27 Apr 2020</span>
+  <p><img class="img-fluid" src="https://www.programcreek.com/wp-content/uploads/2013/02/composite-design-pattern.png" alt="image" /></p>
+
+<h1 id="usage">Usage</h1>
+<p>When we need to create a structure and the structure combines with multiple objects which need to be treated the same way, then we can use composite design pattern. As it shows it is a composition of multiple objects. All the objects which combine together are called leafs. The object which is made by combining leafs is called composite. The behaviour exerted by leaf objects and composite objects is the same so they can inherit same behaviour. This can be done by inheriting same abstract class of same interface. This abstract class or interface is called the Base Component.</p>
+
+<h2 id="so-there-are-3-elements-in-total">So there are 3 elements in total</h2>
+<h4 id="base">Base</h4>
+<script src="https://gist.github.com/spiderbot/cd0e200215554afa6b1da74106fb6441.js"></script>
+
+<h4 id="leaf">Leaf</h4>
+<script src="https://gist.github.com/spiderbot/e620d3b61ec64649295ffe21ddbd63b0.js"></script>
+
+<h4 id="composite">Composite</h4>
+<script src="https://gist.github.com/spiderbot/3a448daf87be382474dfe57f65de2eac.js"></script>
+
+
+</div>
+
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='/public/js/script.js'></script>
+  </body>
+</html>
